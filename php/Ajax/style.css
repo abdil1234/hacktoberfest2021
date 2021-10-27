@@ -1,0 +1,321 @@
+/* following style for header */
+
+.header
+{
+	font-family:Arial;
+	font-size:10.5pt;
+	width:100%;
+	background-color:#F97E76;
+	color:white;
+
+}
+.images
+{
+	height:150px;
+	width:150px;
+
+}
+.tdclass
+{
+	border:1px;
+	border-style:solid;
+	border-color:lightblue;
+	height:inherit;
+	width:250px;
+	border-spacing:100px;
+
+}
+.tdclass:hover
+{
+	border:1px;
+	border-style:solid;
+	border-color:blue;
+	height:inherit;
+	width:250px;
+
+}
+.support
+{
+	margin-top:12px;
+	margin-left:10%;
+	padding-top:10px;
+	background: url(../images/img-sprite.png)-1px -30px;
+	width:33px;
+	height:33px;
+	vertical-align:middle;
+	display:inline-block;
+
+}
+.van
+{
+	margin-left:5px;
+	background: url(../images/img-sprite.png)-35px -30px;
+	width:50px;
+	height:33px;
+	vertical-align:middle;
+	display:inline-block;
+}
+/* following style for menu
+*/
+
+.logo
+{
+	margin-left:100px;
+	margin-top:10px;
+	background-color:white;
+
+	height:50px;
+	width:180px;
+	margin-right:50px;
+	float:left;
+}
+.header1
+{
+	margin-top:10px;
+
+	background-color:white;
+	padding-top:10px;
+	width:100%;
+}
+.hdtextbox
+{
+
+	height:35px;
+	width:200px;
+	border-width:1px;
+	border-style:double;
+	border-color:#f98;
+	float:left;
+}
+.txtbox
+{
+
+
+	height:35px;
+	width:300px;
+	border-width:1px;
+	border-style:double;
+	border-color:#f98;
+	margin-right:50px;
+	float:left;
+}
+.hdbutton
+{
+
+	height:35px;
+	width:100px;
+	border-width:1px;
+	border-style:double;
+	border-color:#f98;
+	background-color:white;
+	text-transform:uppercase;
+}
+.cart
+{
+	margin-top:10px;
+	margin-left:5px;
+	background: url(../images/img-sprite.png)-170px -30px;
+	width:33px;
+	height:33px;
+	vertical-align:middle;
+	display:inline-block;
+}
+.account
+{
+	margin-top:10px;
+	margin-left:5px;
+	background: url(../images/img-sprite.png)-112px -30px;
+	width:33px;
+	height:33px;
+	vertical-align:middle;
+	display:inline-block;
+}
+.login
+{
+	margin-top:10px;
+	margin-left:5px;
+	background: url(../images/img-sprite.png)-140px -29px;
+	width:33px;
+	height:33px;
+	vertical-align:middle;
+	display:inline-block;
+}
+.link
+{
+	color:black;
+	text-transform:uppercase;
+	margin-right:2%;
+
+}
+.vlink
+{
+	color:black;
+}
+.link:hover
+{
+	color:lightblue;
+
+}
+
+/* content page
+
+*/
+
+.content
+{
+	height:auto;
+	width:100%;
+	background-color:white;
+
+}
+/* content
+left side and right side
+
+*/
+.content-left
+{
+  border:1px;
+  border-color:red;
+  border-style:double;
+  width:30%;
+  height:auto;
+  text-transform:uppercase;
+  float:left;
+  margin-right:5px;
+
+}
+.content-right
+{
+  border:1px;
+  border-color:red;
+  border-style:double;
+  width:65%;
+  height:auto;
+
+  float:left;
+  margin-right:10px;
+
+}
+/* space */
+.break
+{
+	float:right;
+	height:10px;
+	width:100%;
+	background-color:white;
+
+}
+
+input[type='text'], input[type='password']
+{
+	height:35px;
+	border-width:1px;
+	border-style:double;
+	border-color:#f98;
+	border-radius:5px;
+
+}
+
+.button
+{
+	height:35px;
+	border-width:1px;
+	border-style:double;
+	border-radius:5px;
+	color:white;
+	background-color:#F97E76;
+	text-transform:uppercase;
+	width:auto;
+	padding-left:15px;
+	padding-right:15px;
+}
+.button:hover
+{
+	background-color:lightblue;
+}
+select
+{
+	height:35px;
+	border-width:1px;
+	border-style:double;
+	border-color:#f98;
+	border-radius:5px;
+	width:auto;
+
+
+}
+
+.menu
+{
+	height:35px;
+	text-align:center;
+	text-transform:uppercase;
+	border-width:1px;
+	border-style:double;
+	border-color:#f98;
+	border-radius:5px;
+	background-color:White;
+	padding-top:15px;
+	width:250px;
+	color:black;
+	list-style-type:none;
+}
+.menu:hover
+{
+	 background-color:#1DBAA5;
+}
+
+textarea
+{
+	border-width:1px;
+	border-style:double;
+	border-color:#f98;
+	border-radius:5px;
+
+}
+.menubutton
+{
+ height:40px;
+ width:250px;
+ background-color:white;
+ border-radius:5px;
+
+ text-align: center;
+ text-transform: uppercase;
+ color:black;
+
+ border-color:#f98;
+ border-style:double;
+ border-width:1px;
+}
+.menubutton:hover
+{
+     background-color:#1DBAA5;
+}
+.linkbutton
+{
+	background-color:white;
+	color:blue;
+	font-size:11pt;
+	border-style:none
+
+}
+.linkbutton:hover
+{
+	color:red;
+	font-size:11pt;
+	border-style:dotted;
+	border-color:cyan;
+}
+/* footer part */
+.footer
+{
+
+	float:right;
+	padding-top:15px;
+	height:60px;
+	color:white;
+	background-color:black;
+	text-align:center;
+	width:100%;
+}
